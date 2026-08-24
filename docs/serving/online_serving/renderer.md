@@ -14,3 +14,5 @@ Our renderer API is designed to disaggregate the render phase(preprocessing) and
     - Render chat completions
 
 For the post processing counterpart that turns generated token IDs back into OpenAI compatible responses, see the [Derenderer APIs](derenderer.md).
+
+For how this API compares with `/v1/chat/completions` and `/inference/v1/generate`, and where multimodal preprocessing gets duplicated across a disaggregated deployment, see [Preprocessing Pipelines](preprocessing_pipelines.md).
